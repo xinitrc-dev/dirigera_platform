@@ -680,4 +680,4 @@ class hub_event_listener(threading.Thread):
             if self._request_to_stop:
                 break
             logger.warn("Failed to create listener or listener exited, will sleep 10 seconds before retrying")
-            time.sleep(10)
+            time.sleep(1)
